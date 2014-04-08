@@ -1,4 +1,4 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014040800 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014040801 1800 900 604800 86400
 .			86400	IN	RRSIG	NSEC 8 0 86400 20140415000000 20140407230000 40926 . JzaofokbMUI8sgxCrI7B+nyyhsyO9E4fyubsGxiRokfu6z0jEj+YWl4B GgrlKNkV34Ev/IpbQCJIF++ZA0nh3Xteb9JWVc4ckwilAsjBLdtsk6t/ O0o+OuPxWyUGANfINRwxruSCiIrrJKvgpa7PoMJ+3LcjxzeHjVTiXEWD fqI=
 .			86400	IN	NSEC	ac. NS SOA RRSIG NSEC DNSKEY
 .			172800	IN	RRSIG	DNSKEY 8 0 172800 20140415235959 20140401000000 19036 . PttXGhd/RiRQDhz9002k/gYVU2c2+YjuW+xv2jczlIuLacXET3ZExT3X kZCTtXiveS+vJtYQPVPCUXZcYb+4VjovysRQ1BedFYrRC/n9scSgm1UO zxDXRKk7tvBgHiyTwONNvogw/SBJYJ/z9n5cpCY2taEvy5aL2h+vrnwH 7WvVT8NR4VJ/ZKJ4GdSxyrEiESm2+d1dUuKOd/XeZbF15XMdDPBH8Ghx eZY5ISbZfDSV3vISQIA1B/VF9Dq/6dxoyMbdPhcpvly3QfzN6brVla2o 3FLAcDMyFmSvEcSOgtMntSm0usIsZ7eQiQOfejohFSbFFNcivXXwIlXF qgJXLA==
@@ -19,7 +19,7 @@
 .			518400	IN	NS	k.root-servers.net.
 .			518400	IN	NS	l.root-servers.net.
 .			518400	IN	NS	m.root-servers.net.
-.			86400	IN	RRSIG	SOA 8 0 86400 20140415000000 20140407230000 40926 . MqndohGJl/b+zR9zlVnH1Ui0De64EN+h5GZu6vxvqRsbe/zCqbJUp0Pq p+OTzHhvH7cpRow/yTn+Lx3M7727dWPztVNZI9UKYyizt6gXerfadYxr 6SY3Yd89Kp1ExjRt3Wqvt90O8KUWuoB7k6jsE9OGSzKW9cwEyyN8tR9x Sa8=
+.			86400	IN	RRSIG	SOA 8 0 86400 20140415000000 20140407230000 40926 . IE5+FdOiMa9tCzR9B3C9DOfh0OxxeXs4ECBY7/gjzrvM7jnjPYlgUQhF AeQ8b7l/IaORWUA+1F1sw1+S/yuVLM1ImS/knrDq0vo9rg6dGffhAtFk oiBW6XajtPtX0RF2Kg9pabyNN5qjbxJhNpEIAogldDfkgRFj9stE1Xxt iRw=
 ac.			86400	IN	RRSIG	NSEC 8 1 86400 20140415000000 20140407230000 40926 . YzWvKO2snvakVbkMhKS9bw944mZwz9ZsZnIFj5RjJy6egdmYiBoccISH YZGHCjCQsnxH/TkNFcEoAvYsbiBVi+ibJIqfG7kIM0yaZCuS/MvD3bYj GwiJEI8bmyubSuYvNmvJ6+GqNnaW0OG33K3wV+GXUMyyHbe33TtMUw0z pVw=
 ac.			86400	IN	NSEC	academy. NS DS RRSIG NSEC
 ac.			86400	IN	RRSIG	DS 8 1 86400 20140415000000 20140407230000 40926 . CN5QyTQXGuyh9thm937JQmKx4kuBjcnVTWv6GJOJyjcvxmH+bqvit4lp uzJNY6IdTtuNzKeolBJ7sGSn2FQR7TZ/LVYywlWX8pGFrbeqdHzQNbFL BZ7xnn5yKZnFeP5wcSF9uaMVKZnYBBTtY5UU7dZiZ36hBfZZilvsplnp IlA=
@@ -924,7 +924,6 @@ ceo.			172800	IN	NS	ns3.dns.nic.ceo.
 ceo.			172800	IN	NS	ns4.dns.nic.ceo.
 ceo.			172800	IN	NS	ns5.dns.nic.ceo.
 ceo.			172800	IN	NS	ns6.dns.nic.ceo.
-ceo.			172800	IN	NS	ns7.dns.nic.ceo.
 ns1.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1071::25
 ns1.dns.nic.ceo.	172800	IN	A	156.154.144.37
 ns2.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1072::25
@@ -937,8 +936,6 @@ ns5.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1075::25
 ns5.dns.nic.ceo.	172800	IN	A	156.154.157.37
 ns6.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1076::25
 ns6.dns.nic.ceo.	172800	IN	A	156.154.158.37
-ns7.dns.nic.ceo.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
-ns7.dns.nic.ceo.	172800	IN	A	207.34.5.10
 cf.			86400	IN	RRSIG	NSEC 8 1 86400 20140415000000 20140407230000 40926 . XZytA8E35wRntLIMu3bxbWL6jjgWiei3D9wJy4s0O9qcKP4fAiTHnmHD Sx41YqSOUjguRXtqt/EO8yd0YrYG4ERNUh4968d/Nw1KRAjIQ5gXMvT4 rrT8sazdcYbb41rqrAFKytL5iyINzag+h8UnyGNKxff98A+Wdk+JRCn5 Iv8=
 cf.			86400	IN	NSEC	cg. NS RRSIG NSEC
 cf.			172800	IN	NS	a.ns.cf.
@@ -1063,7 +1060,6 @@ club.			172800	IN	NS	ns3.dns.nic.club.
 club.			172800	IN	NS	ns4.dns.nic.club.
 club.			172800	IN	NS	ns5.dns.nic.club.
 club.			172800	IN	NS	ns6.dns.nic.club.
-club.			172800	IN	NS	ns7.dns.nic.club.
 ns1.dns.nic.club.	172800	IN	AAAA	2610:a1:1071::d7
 ns1.dns.nic.club.	172800	IN	A	156.154.144.215
 ns2.dns.nic.club.	172800	IN	AAAA	2610:a1:1072::d7
@@ -1076,8 +1072,6 @@ ns5.dns.nic.club.	172800	IN	AAAA	2610:a1:1075::d7
 ns5.dns.nic.club.	172800	IN	A	156.154.157.215
 ns6.dns.nic.club.	172800	IN	AAAA	2610:a1:1076::d7
 ns6.dns.nic.club.	172800	IN	A	156.154.158.215
-ns7.dns.nic.club.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
-ns7.dns.nic.club.	172800	IN	A	207.34.5.10
 cm.			86400	IN	RRSIG	NSEC 8 1 86400 20140415000000 20140407230000 40926 . iRGFn6pq526p0Z/8HzcEpx6Va4BXG6x/U25msRgQfSy9dxMKb5JqUfvp fkQNTayHiWKRKPzPSVF4KldZjwjX2C4SSk012jS1FUmIHmtvesCxnlVP P9ITSpMfxmWIs6Aomhgy3JmM2jWef9keQh6LluV6ZSbFliCK3gICYvDY PHo=
 cm.			86400	IN	NSEC	cn. NS RRSIG NSEC
 cm.			172800	IN	NS	cm.cctld.authdns.ripe.net.
@@ -6778,4 +6772,4 @@ zw.			172800	IN	NS	ns-zw.ripe.net.
 zw.			172800	IN	NS	news-tokyo.gip.net.
 ns1.telone.co.zw.	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.	172800	IN	A	194.133.122.42
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014040800 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014040801 1800 900 604800 86400
