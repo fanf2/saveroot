@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014052500 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20140601000000 20140524230000 40926 . D4Xpgvrn6XzS+B8QHchMQm2AuwsJu3LWjyrXwqj0vmpcymcw4k7lXk8j iO5f6gGEWEGFXZOxEhzk/MUqsHRzgTic74y460z4MrpuDPQHX7hkpxb3 Clu5RSdqxVwtvQQ68D+jZNDUrHFn92FQNfFmXvPUB1Rb5sKT0+ULMuaL nxM=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014052501 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20140601000000 20140524230000 40926 . N4bbGZdzHLBhp/zfHR/mPKGFfDxUVwimTLDcx0HNiyMCg/n+H4VgRHiv eoIIIHflC0UjlHKjUTjGVKbstbmDNNRPsfV54/FHrepbTF0+hUHgsf7g pTWy5rnZE8LMrreD8L7A7d3ZnQxt+WH2HE8rcUdgxQZDlpqaXS8dq+tl 0p4=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -7491,4 +7491,4 @@ zw.			86400	IN	NSEC	. NS RRSIG NSEC
 zw.			86400	IN	RRSIG	NSEC 8 1 86400 20140601000000 20140524230000 40926 . VGhrr1czWdQtd1Kt/ijwza+Lo8GbxzLy3ZsXT7Mkr/68WDTwPB8QahP4 9HsbBIjKDwKfcXADIAfROUA9gjkQ3VXu99Gxu8NqoKoHP4GPG++bjSul 6sG7VGf9cOsCFqzejdEJpnp5UzuNHHQ48lKwv4ONhRmCoCS6bteqcdaA d7A=
 ns1.telone.co.zw.	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.	172800	IN	A	194.133.122.42
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014052500 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014052501 1800 900 604800 86400
