@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014062700 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20140704000000 20140626230000 40926 . hWfpWzyDyzf0hQ49sgaCVODHzPV9eHMJyECf95DMf8sMMNcb5SXThUab 0vRh6ac4Z7Dfbijq5D3TRxJdmSl5EQdqh03m8tHG+Z/eoNAcxQnsZvlk r/BQl/5YhWP6hwxl6AcaMPe73REHgKUFIHSzVILSR9R2hHOzUIDuMdIe vOU=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014062701 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20140704000000 20140626230000 40926 . Oa6l2sKsumjjIlFvkJFDoiw4r2wwiNgdW+JsDlsDqevn9C+R8ZNS/NbP u8u1f2AxKbgY7Ako0escYGQODwVNYeqMOM1S0150vZF+RF9274sdfjmE AeLSL8BXxflLzDlesf1MWCtbNvEGaM8cT3mbcjTU3KQrbpO+AYqe5jAY BLI=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -7991,4 +7991,4 @@ zw.			86400	IN	RRSIG	NSEC 8 1 86400 20140704000000 20140626230000 40926 . KHr8FJ
 ns1.telone.co.zw.	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.	172800	IN	A	194.133.122.42
 ns3.telone.co.zw.	172800	IN	A	194.133.122.34
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014062700 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014062701 1800 900 604800 86400
