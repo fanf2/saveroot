@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014072500 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20140801000000 20140724230000 8230 . kFqTVIABw+ArVLvr2dejBZWNgbc7LNZSzoZp9qEvkEjciS+U5KrqX3hg ck9+vu9LWY0D5U0J+xiYhrzsu7F9Ebzs+N5HP6Rw8LkeESwo2Uj36puz C9n+6ct6u4TOFGEziFdhVQxwFbAeyn041enNBfhwwiF9ISo7Q4v7sCms eps=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014072501 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20140801000000 20140724230000 8230 . j2dvoEjiCvwkGXksda6LmIXmvjZ+/lxdqVrdVjkhccXOrufZgTqg6idf /5PUGs0iCMqya0nSDh9IH6+3BQy3ADwUrPAoBCyVcriaLiNmdXPmm1br xEVt2qD/yjJ4r0hZTtOle83Ba7jKnetHHbV8o+1lSWW7COsVqQsat63a Pjk=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1548,8 +1548,8 @@ dns4.tld.tutby.com.	172800	IN	A	62.212.73.101
 dns5.tld.tutby.com.	172800	IN	A	46.165.217.94
 dns6.tld.tutby.com.	172800	IN	A	108.59.8.66
 dns7.tld.tutby.com.	172800	IN	A	103.23.93.36
-dns1.u-registry.com.	172800	IN	A	184.22.82.74
-dns1.u-registry.com.	172800	IN	AAAA	2607:f878:3:39c::2
+dns1.u-registry.com.	172800	IN	A	173.208.218.43
+dns1.u-registry.com.	172800	IN	AAAA	2604:4300:a:8c:5054:ff:fe47:8582
 a.zdnscloud.com.	172800	IN	A	1.8.240.1
 b.zdnscloud.com.	172800	IN	A	1.8.241.1
 c.zdnscloud.com.	172800	IN	A	1.8.242.1
@@ -5093,8 +5093,8 @@ ns4.dns.nl.		172800	IN	A	95.142.99.212
 ns4.dns.nl.		172800	IN	AAAA	2a00:1188:5::212
 ns5.dns.nl.		172800	IN	A	194.0.28.53
 ns5.dns.nl.		172800	IN	AAAA	2001:678:2c:0:194:0:28:53
-ns-pt.nlnetlabs.nl.	172800	IN	A	213.154.224.141
-ns-pt.nlnetlabs.nl.	172800	IN	AAAA	2001:7b8:206:1::4:141
+ns-pt.nlnetlabs.nl.	172800	IN	A	185.49.140.61
+ns-pt.nlnetlabs.nl.	172800	IN	AAAA	2a04:b900::8:0:0:61
 no.			86400	IN	NSEC	np. NS RRSIG NSEC
 no.			86400	IN	RRSIG	NSEC 8 1 86400 20140801000000 20140724230000 8230 . moJb+0YZ7cLn9pHw+MBrjMv9upBRH0J3tthC0qAEN4URkXvYVUmYJ1em mF3pCoyTmZXfnhGvqnuttVmiYqyVM8sFEn8LJVwDPCFwsZnEYHcGi9nM 5Jfy4dIFMLCspD94iezS9XR2iIQihFJSSXyJDCET+KPxEd4xEqRw+n1F a9E=
 no.			172800	IN	NS	i.nic.no.
@@ -6049,12 +6049,15 @@ ruhr.			86400	IN	RRSIG	DS 8 1 86400 20140801000000 20140724230000 8230 . QXSW5pf
 ruhr.			86400	IN	NSEC	rw. NS DS RRSIG NSEC
 ruhr.			86400	IN	RRSIG	NSEC 8 1 86400 20140801000000 20140724230000 8230 . EdfbLJFTqXWut1K9929/TBhAakbEn6Wd9z1ttndTQgxB/NWguCVxBGAw WEgPryACsh+s0FSD98b4Zyuva2aej3GCzYsqZ/9K7RMhlF5fLMM3V/aA v51NmES+IH1Rl71DTuqdu9VwvA23LGtelTjy9hyCXlH6/fhTobUdI9Ba +fw=
 rw.			172800	IN	NS	ns1.ricta.org.rw.
+rw.			172800	IN	NS	pch.ricta.org.rw.
 rw.			172800	IN	NS	fork.sth.dnsnode.net.
 rw.			172800	IN	NS	ns-rw.afrinic.net.
 rw.			172800	IN	NS	sns-pb.isc.org.
 rw.			86400	IN	NSEC	ryukyu. NS RRSIG NSEC
 rw.			86400	IN	RRSIG	NSEC 8 1 86400 20140801000000 20140724230000 8230 . FcOgr5FYE+UC+U29M3Dmjsf8tgj+nu4PTTbXO2O7J7RMe0tbcO10Av1Y OBRR9CysL9+xeSAMUYxi0tzd0ZVantjiGE/pzl6ZhUMKESJehtzm0Dsg 7UQHV8hi+O4rVpd0T9OUH69j1Z/J0GphgFc8SRzYbB5NpXFD0PWgpXZC 23c=
 ns1.ricta.org.rw.	172800	IN	A	41.74.173.250
+pch.ricta.org.rw.	172800	IN	A	204.61.216.91
+pch.ricta.org.rw.	172800	IN	AAAA	2001:500:14:6091:ad::1
 ryukyu.			172800	IN	NS	a.gmoregistry.net.
 ryukyu.			172800	IN	NS	b.gmoregistry.net.
 ryukyu.			172800	IN	NS	c.gmoregistry.net.
@@ -8318,4 +8321,4 @@ zw.			86400	IN	RRSIG	NSEC 8 1 86400 20140801000000 20140724230000 8230 . XuBnqRy
 ns1.telone.co.zw.	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.	172800	IN	A	194.133.122.42
 ns3.telone.co.zw.	172800	IN	A	194.133.122.34
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014072500 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014072501 1800 900 604800 86400
