@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014091100 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20140918000000 20140910230000 8230 . BV2YVeB2CLfULJT1CZc5xwAo8+0ohDRKamOXtiA7mj0CgzlMfTcN2/Yl z9U8m4apO/uTTaM+VmxIRIdV04t7ANA5kzd1GWoIKUUfboPeImiK1omp 6YBc7XNzPVDa/mh8gA3Q3dyw5exiU/6qkV3h12aPzt7SZpDtUPPlaNCv 8B4=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014091101 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20140918000000 20140910230000 8230 . DIR8XugD58oVwC3lbrKyUucBznR4CwuaAb88bAaSiRgLDRk3XL3Pu5d9 UaKldTKqntttRXp01EpZ66oWQ0GA+x81/Q4k3DudqvWAYdpm2ouDNjyH Q8aW0KtZtObTHw2hErit7jyhw2IBDD010AWhF83wpXzGr6pIAPrW9THA oOM=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -4880,7 +4880,6 @@ ns34.cdns.net.		172800	IN	AAAA	2001:678:4::22
 ns7.cdns.net.		172800	IN	A	194.0.1.7
 ns7.cdns.net.		172800	IN	AAAA	2001:678:4::7
 ns.cernet.net.		172800	IN	A	202.112.0.44
-root-b.cloud9global.net. 172800	IN	A	50.22.82.251
 lk.communitydns.net.	172800	IN	A	194.0.1.27
 ns1.communitydns.net.	172800	IN	A	194.0.1.1
 ns1.communitydns.net.	172800	IN	AAAA	2001:678:4::1
@@ -5895,12 +5894,15 @@ pizza.			86400	IN	DS	15415 8 2 CB623695AC8EA9FBB3C224301A01FB1F84C49E2113CC36CA7
 pizza.			86400	IN	RRSIG	DS 8 1 86400 20140918000000 20140910230000 8230 . kzWjMMxiqzRr5x/32UxvteD01S86oTp92w9GnTKl1haQvD8W7gJ41XYJ aqVZx4utEsxgYL9CzynPRN0ggs3lIvBW9Nx6btruxDnfId83lkdIHYye rHojLfFRaIaPFyzx2KQyyYFLepDwJBLd5UmkKaPHJjO304nLvPoWLKNb urc=
 pizza.			86400	IN	NSEC	pk. NS DS RRSIG NSEC
 pizza.			86400	IN	RRSIG	NSEC 8 1 86400 20140918000000 20140910230000 8230 . GvLCsk6uzTcH60xgEbZugC1zy9kGUfXo0VotrjF7DB10mt5HhAUiEsyD Salck+Nr8m+mkze7IVxjIV4AluJFAxu7Hovt3l9301tCxGeSRuSkqIof YQhBfjJkylHH1a+uG2XPyN47kV5pQSOyIR2gL+ACPRhsTTD0m56vV07e XLs=
-pk.			172800	IN	NS	root-b.cloud9global.net.
-pk.			172800	IN	NS	root-p.pknic.pk.
+pk.			172800	IN	NS	n1.pknic.net.pk.
+pk.			172800	IN	NS	n2.pknic.net.pk.
+pk.			172800	IN	NS	ns3.pknic.net.pk.
 pk.			172800	IN	NS	root-s.pknic.pk.
 pk.			86400	IN	NSEC	pl. NS RRSIG NSEC
 pk.			86400	IN	RRSIG	NSEC 8 1 86400 20140918000000 20140910230000 8230 . hE9rJT+riUH0bU0bbyzqPlVV0fD7BYSxzNxcNFn2Gx7tjsYJLjTWaqXm c0B/Zyu5Z/TbitZvRf6ZZvMxtGXj93HspEZd15QhxieaS215Fcs2KzCM dtNu5K3yIpJi+o//e/ctIjGqBf4Io0VO+F4Zrzz1P4Es9V5LUqSswEc1 p3c=
-root-p.pknic.pk.	172800	IN	A	203.128.7.123
+n1.pknic.net.pk.	172800	IN	A	162.252.84.2
+n2.pknic.net.pk.	172800	IN	A	107.6.141.90
+ns3.pknic.net.pk.	172800	IN	A	199.192.75.54
 root-s.pknic.pk.	172800	IN	A	119.81.34.90
 pl.			172800	IN	NS	a-dns.pl.
 pl.			172800	IN	NS	c-dns.pl.
@@ -8883,4 +8885,4 @@ zw.			86400	IN	RRSIG	NSEC 8 1 86400 20140918000000 20140910230000 8230 . o8RRM42
 ns1.telone.co.zw.	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.	172800	IN	A	194.133.122.42
 ns3.telone.co.zw.	172800	IN	A	194.133.122.34
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014091100 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014091101 1800 900 604800 86400
