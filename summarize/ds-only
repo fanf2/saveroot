@@ -1,0 +1,2 @@
+#!/bin/sh
+grep -P '\s+IN\s+DS\s+' "$@" | sort

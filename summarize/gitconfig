@@ -1,0 +1,18 @@
+[diff "aaa-only"]
+	textconv = summarize/aaa-only
+	binary = true
+[diff "no-rrsig"]
+	textconv = summarize/no-rrsig
+	binary = true
+[diff "no-rrsig-q"]
+	textconv = summarize/no-rrsig-q
+	binary = true
+[diff "soa-only"]
+	textconv = summarize/soa-only
+	binary = true
+[diff "ds-only"]
+	textconv = summarize/ds-only
+	binary = true
+[diff "root-servers-only"]
+	textconv = summarize/root-servers-only
+	binary = true
