@@ -8,9 +8,18 @@ The archive dates back to 2014-03-05. There are likely to be gaps
 caused by failures in the cron job. (This archive is a low-effort side
 project.)
 
-There is also an archived `root.jnl.gz` which is a BIND journal file
-that contains incremental updates to the root zone covering serial
-numbers between 2005072701 and 2014030300.
+
+old journal
+-----------
+
+The `journal` subdirectory contains an archived BIND journal file
+split into pieces. To re-create the file, run the command:
+
+        cat journal/* | zcat -d > root.jnl
+
+You can use `named-journalprint root.jnl` to examine its contents.
+This file contains incremental updates to the root zone covering
+serial numbers between 2005072701 and 2014030300.
 
 
 summarize git log
