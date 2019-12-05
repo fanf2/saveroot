@@ -19,7 +19,8 @@ split into pieces. To re-create the file, run the command:
 
 You can use `named-journalprint root.jnl` to examine its contents.
 This file contains incremental updates to the root zone covering
-serial numbers between 2005072701 and 2014030300.
+serial numbers between 2005072701 and 2014030300. There is a gap
+between the end of the journal and the start of the main archive.
 
 
 summarize git log
@@ -27,6 +28,8 @@ summarize git log
 
 The `summarize` subdirectory contains some helper scripts for
 selecting which parts of the root zone are shown in `git log --patch`.
+Most of the changes to the root zone are to refresh RRSIG records,
+which is not very interesting.
 
 The `summarize/gitconfig` file can be appended to your `.git/config`
 file to get it set up. This must be done manually because the
@@ -35,17 +38,19 @@ scripts.
 
 The `summarize/gitattributes` file is an example that can be copied to
 `.gitattributes` and edited to choose which records you want to see in
-diffs.
+diffs. The default in the example `gitattributes` file ignores
+RRSIG records.
 
 
 related work
 ------------
 
-This repository is a companion to [@diffroot on Twitter][diffroot],
-which uses [nsdiff][] to produce summaries of how the root zone changes.
+This `saveroot` repository is a companion to [@diffroot on Twitter][diffroot].
+The `diffroot` bot uses [nsdiff][] to tweet summaries of how the root
+zone changes.
 
 The scripts for updating this `saveroot` repository live alongside
-`diffroot` which is currently not fit for public consumption because
+`diffroot`, which is currently not fit for public consumption because
 the repository contains secrets.
 
 [diffroot]: https://twitter.com/diffroot
