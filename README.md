@@ -10,6 +10,16 @@ caused by failures in the cron job. (This archive is a low-effort side
 project.)
 
 
+repository size
+---------------
+
+*Warning: this repository is multiple gigabytes in size.*
+
+This repository is so big because most of the changes to the root zone
+are updated RRSIG records, containing cryptographic data that does not
+compress well.
+
+
 old journal
 -----------
 
@@ -76,10 +86,21 @@ The scripts in the summarize directory are released under the 0BSD license.
 I do not know the exact copyright status of the root zone itself.
 
 
+future work
+-----------
+
+It would be cool to:
+
+  * Reconstruct old root zones from the journal. This covers the
+    period when the zone was signed in 2010.
+
+  * Write analysis scripts to extract a log of changes per TLD.
+
+
 feedback
 --------
 
-Please send comments / suggestions to me by email.
+Please send comments / suggestions / contributions to me by email.
 
 > Tony Finch <dot@dotat.at> <fanf2@cam.ac.uk>  
 > University of Cambridge
