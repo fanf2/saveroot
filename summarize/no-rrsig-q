@@ -1,2 +1,2 @@
 #!/bin/sh
-grep -v RRSIG "$@" | sort
+grep -v RRSIG "$@"

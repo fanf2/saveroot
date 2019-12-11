@@ -1,2 +1,2 @@
 #!/bin/sh
-grep -P '\s+IN\s+SOA\s+' "$@" | sort
+grep -P '\s+IN\s+SOA\s+' "$@" | sort -u

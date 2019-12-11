@@ -1,2 +1,2 @@
 #!/bin/sh
-grep -P '\s+IN\s+DS\s+' "$@" | sort
+grep -P '\s+IN\s+DS\s+' "$@"

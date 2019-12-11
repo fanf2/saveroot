@@ -1,8 +1,5 @@
-[diff "aaa-only"]
-	textconv = summarize/aaa-only
-	binary = true
-[diff "no-rrsig"]
-	textconv = summarize/no-rrsig
+[diff "no-rrsig-slow"]
+	textconv = summarize/no-rrsig-slow
 	binary = true
 [diff "no-rrsig-q"]
 	textconv = summarize/no-rrsig-q

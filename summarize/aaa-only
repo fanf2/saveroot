@@ -1,2 +1,0 @@
-#!/bin/sh
-fgrep aaa "$@" | fgrep -v RRSIG	| sort
