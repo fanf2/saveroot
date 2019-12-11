@@ -13,6 +13,9 @@
 [diff "ds-only"]
 	textconv = summarize/ds-only
 	binary = true
+[diff "ns-only"]
+	textconv = summarize/ns-only
+	binary = true
 [diff "root-servers-only"]
 	textconv = summarize/root-servers-only
 	binary = true
