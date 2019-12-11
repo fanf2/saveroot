@@ -96,6 +96,9 @@ It would be cool to:
 
   * Write analysis scripts to extract a log of changes per TLD.
 
+  * Publish a less enormous version of this repository that excludes
+    RRSIG records.
+
 
 feedback
 --------
