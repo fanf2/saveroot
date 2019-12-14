@@ -30,8 +30,11 @@ split into pieces. To re-create the file, run the command:
 
 You can use `named-journalprint root.jnl` to examine its contents.
 This file contains incremental updates to the root zone covering
-serial numbers between 2005072701 and 2014030300. There is a gap
-between the end of the journal and the start of the main archive.
+serial numbers between 2005072701 and 2014030500. There is [a small
+unlucky gap][gap] between the end of the journal and the start of the
+main archive.
+
+[gap]: https://lists.dns-oarc.net/pipermail/dns-operations/2019-December/019536.html
 
 Many thanks to [David Malone][dwmal1] for providing this journal.
 
