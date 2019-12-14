@@ -33,6 +33,10 @@ This file contains incremental updates to the root zone covering
 serial numbers between 2005072701 and 2014030300. There is a gap
 between the end of the journal and the start of the main archive.
 
+Many thanks to [David Malone][dwmal1] for providing this journal.
+
+[dwmal1]: https://www.maths.tcd.ie/~dwmalone/
+
 
 summarize git log
 -----------------
